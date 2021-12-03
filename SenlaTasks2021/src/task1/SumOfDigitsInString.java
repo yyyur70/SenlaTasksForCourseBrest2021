@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 public class SumOfDigitsInString {
 
     public static void main(String[] args) throws IOException {
+        System.out.println("Пробуем еще раз3");
         char c ;
         int res = 0;
         try (BufferedReader sr = new BufferedReader (new InputStreamReader(System.in))) {
@@ -23,6 +24,7 @@ public class SumOfDigitsInString {
             System.out.println(e.getMessage());
         }
         System.out.println("Пробуем еще раз");
+        System.out.println("Пробуем еще раз2");
     }
 }
 
